@@ -21,9 +21,9 @@ public partial class User
 
     public DateTime? CreatedAt { get; set; }
 
-    public virtual ICollection<LoginHistory> LoginHistories { get; set; } = new List<LoginHistory>();
+    public virtual ICollection<LoginHistory> LoginHistories { get; set; } = [];
 
-    public virtual ICollection<PasswordResetToken> PasswordResetTokens { get; set; } = new List<PasswordResetToken>();
+    public virtual ICollection<PasswordResetToken> PasswordResetTokens { get; set; } = [];
 
-    public virtual ICollection<UserRole> UserRoles { get; set; } = new List<UserRole>();
+    public virtual ICollection<UserRole> UserRoles { get; set; } = [];
 }

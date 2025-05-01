@@ -1,1 +1,1 @@
-# restaurant-erp
+# Restaurant Management System
